@@ -33,6 +33,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm install eslint @babel/core @babel/eslint-parser --save-dev
         - npm install
     build:
       commands:
